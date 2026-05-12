@@ -6,7 +6,7 @@ from main import Block, Source, Vote, Person
 def test_valid_block():
     block = Block(id="block7", view=45, desc="ok", img=None)
     assert block.view == 45
-def test_valid_block():
+def test_valid_block1():
     block = Block(id="block7", view=-3, desc="ok", img=None)
     assert block.view == -3
 
