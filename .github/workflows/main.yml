@@ -17,4 +17,4 @@ jobs:
 
       - run: pip install pytest
 
-      - run: lab6.py
+      - run: python lab6.py
