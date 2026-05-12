@@ -19,4 +19,4 @@ jobs:
 
       - run: pip install pytest pydantic
 
-      - run: python lab6.py
+      - run: pytest lab6.py
